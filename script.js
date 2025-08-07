@@ -1,5 +1,4 @@
 
-
 /*box Content*/
 
 function onclickfun1()
@@ -53,7 +52,7 @@ myBox4.addEventListener('click',onclickfun4);
 function onbtnclick()
 {
     txt=document.getElementById('user').value;
-    document.getElementById("herdertext").innerText ="Hello"+" "+txt;
+    document.getElementById("herdertext").innerText ="Hello,"+" "+txt;
     
 }
 
@@ -69,4 +68,3 @@ function cleartext()
 const myButton=document.getElementById('mybtn');
 myButton.addEventListener('click',onbtnclick);
 myButton.addEventListener('click',cleartext);
-
