@@ -51,17 +51,23 @@ myBox4.addEventListener('click',onclickfun4);
 
 function onbtnclick()
 {
-    txt=document.getElementById('user').value;
-    if (txt==""){
-        document.getElementById("herdertext").innerText ="Hello";
-    }
-    else
-    {
-        document.getElementById("herdertext").innerText ="Hello,"+" "+txt;
-    }
-    
-    
+    name=document.getElementById('user').value;
+
+if (name === "") {
+     document.getElementById("herdertext").innerText ="Hello";
+  }
+else {
+     document.getElementById("herdertext").innerText ="Hello,"+" "+txt;
+  }
+
 }
+
+
+
+
+
+    
+  
 
 
 
