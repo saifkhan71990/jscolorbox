@@ -49,19 +49,15 @@ myBox4.addEventListener('click',onclickfun4);
 /*form Content*/
 
 
-function onbtnclick()
-{
-    name=document.getElementById('user').value;
+function onbtnclick() {
+  const name = document.getElementById('user').value;
 
-if (name === "") {
-     document.getElementById("herdertext").innerText ="Hello";
+  if (name === "") {
+    document.getElementById("herdertext").innerText = "Hello";
+  } else {
+    document.getElementById("herdertext").innerText = "Hello, " + name;
   }
-else {
-     document.getElementById("herdertext").innerText ="Hello,"+" "+txt;
-  }
-
 }
-
 
 
 
