@@ -52,7 +52,7 @@ myBox4.addEventListener('click',onclickfun4);
 function onbtnclick()
 {
     txt=document.getElementById('user').value;
-    if (txt=""){
+    if (txt==""){
         document.getElementById("herdertext").innerText ="Hello";
     }
     else
